@@ -1,0 +1,15 @@
+name: paago
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - tqdm
+  - pyyaml
+  - pytorch
+  - pip

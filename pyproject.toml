@@ -1,0 +1,10 @@
+[project]
+name = "paago"
+version = "2.0.0"
+description = "Publication repository for PAAGO EEG seizure prediction experiments"
+requires-python = ">=3.10"
+authors = [{name = "Ahmed Ali Hmoud Mubaraki"}]
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["trainer", "scripts", "evaluation", "models"]

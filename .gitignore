@@ -1,0 +1,39 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and experiment tracking
+*.log
+wandb/
+mlruns/
+
+# Large research artifacts excluded from GitHub
+runs/
+checkpoints/
+release_assets/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+
+# Data cache/raw data
+data/EEG_FPN_Cache_v4/
+data/raw/
+data/**/*.edf
