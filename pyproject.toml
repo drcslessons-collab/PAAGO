@@ -1,10 +1,17 @@
-[project]
-name = "paago"
-version = "2.0.0"
-description = "Publication repository for PAAGO EEG seizure prediction experiments"
-requires-python = ">=3.10"
-authors = [{name = "Ahmed Ali Hmoud Mubaraki"}]
-license = {text = "MIT"}
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-packages = ["trainer", "scripts", "evaluation", "models"]
+[project]
+name = "paago-repro"
+version = "1.0.0"
+description = "Reproducibility analysis for PAAGO v6.3"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+

@@ -1,0 +1,2 @@
+method,n_runs,event_sensitivity_mean,event_sensitivity_sd,false_alarms_per_hour_mean,false_alarms_per_hour_sd,median_latency_sec_mean,median_latency_sec_sd,window_roc_auc_mean,window_roc_auc_sd,window_pr_auc_mean,window_pr_auc_sd
+PAAGO validation-F2,5,0.6766,0.023415806627148244,2.2428,0.1046169202375983,28.0,3.1024184114977142,0.7325999999999999,0.013126309458488335,0.1056,0.01023718711365578

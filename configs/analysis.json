@@ -1,0 +1,10 @@
+{
+  "seeds": [42, 123, 2026, 27182, 31415],
+  "window_sec": 10.0,
+  "stride_sec": 5.0,
+  "event_merge_gap_sec": 30.0,
+  "minimum_positive_windows": 1,
+  "external_dataset": {"patients": 14, "edf_files": 41, "seizures": 47},
+  "reporting": {"dispersion": "sample_sd", "ddof": 1, "confidence": 0.95}
+}
+

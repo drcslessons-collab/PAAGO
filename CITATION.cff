@@ -1,17 +1,11 @@
 cff-version: 1.2.0
-title: "PAAGO: Prompt-Aware Adaptive Graph Optimization for EEG Seizure Prediction"
-message: "If you use this repository, please cite the associated PAAGO manuscript."
+message: "If you use these materials, please cite the associated PAAGO article."
+title: "PAAGO v6.3 reproducibility materials"
 type: software
+version: 1.0.0
+date-released: 2026-09-24
 authors:
-  - family-names: Mubaraki
-    given-names: Ahmed Ali Hmoud
-repository-code: "https://github.com/<username>/PAAGO"
-version: "1.0.0"
-date-released: "2026-07-07"
+  - given-names: "Ahmed"
+    family-names: "Mubaraki"
+repository-code: "https://github.com/drcslessons-collab/PAAGO"
 license: MIT
-keywords:
-  - EEG
-  - seizure prediction
-  - graph attention
-  - adaptive focal loss
-  - patient-independent evaluation

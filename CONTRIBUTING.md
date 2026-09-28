@@ -1,11 +1,8 @@
 # Contributing
 
-This repository is primarily a publication artifact. Contributions should preserve reproducibility.
+Open an issue before changing a locked evaluation rule. Pull requests must pass
+`make verify`, `make reproduce`, and `make test`. Never commit EDF recordings,
+patient-identifiable data, checkpoints, credentials, or local cloud-drive paths.
+Any correction to a reference event must document the affected patient, EDF,
+old/new boundary, reason, and resulting metric changes.
 
-Recommended contribution rules:
-
-1. Do not overwrite published experiment outputs.
-2. Add new experiments under a new versioned folder in `runs/`.
-3. Add any new configuration under `configs/`.
-4. Document dataset preprocessing changes in `data/README.md`.
-5. Report metrics using the same thresholding and patient-independent split protocol.

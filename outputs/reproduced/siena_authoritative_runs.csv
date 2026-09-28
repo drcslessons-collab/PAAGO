@@ -1,0 +1,6 @@
+method,seed,locked_threshold,event_sensitivity,false_alarms_per_hour,median_latency_sec,window_roc_auc,window_pr_auc
+PAAGO validation-F2,42,0.106,0.681,2.177,24.5,0.733,0.107
+PAAGO validation-F2,123,0.146,0.638,2.313,31.0,0.719,0.097
+PAAGO validation-F2,2026,0.104,0.681,2.27,27.0,0.748,0.105
+PAAGO validation-F2,27182,0.124,0.702,2.356,26.0,0.72,0.097
+PAAGO validation-F2,31415,0.111,0.681,2.098,31.5,0.743,0.122
