@@ -1,0 +1,32 @@
+{
+  "windows": 101479,
+  "ictal_windows": 984,
+  "patients": 14,
+  "edf_files": 41,
+  "reference_events": 47,
+  "recording_hours": 141.0,
+  "ictal_hours": 1.7966666666666666,
+  "interictal_hours": 139.20333333333335,
+  "window_sec": 10.0,
+  "stride_sec": 5.0,
+  "decision_time": "window end",
+  "alarm_refractory_sec": 30.0,
+  "threshold_source": "CHB-MIT validation scores; frozen for Siena",
+  "annotation_correction": {
+    "edf_file": "PN12-1.2.edf",
+    "event": 2,
+    "exported_clock_seconds": [
+      66661.0,
+      66729.0
+    ],
+    "recording_start_clock": "15:51:31",
+    "event_clock": [
+      "18:31:01",
+      "18:32:09"
+    ],
+    "corrected_elapsed_seconds": [
+      9570.0,
+      9638.0
+    ]
+  }
+}
