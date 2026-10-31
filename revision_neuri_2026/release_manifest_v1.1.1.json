@@ -1,0 +1,11 @@
+{
+  "version": "v1.1.1-neuri-final-revision",
+  "created_for": "Neuroscience Informatics final revision",
+  "anonymous_review_package": true,
+  "raw_eeg_included": false,
+  "trained_checkpoints_included": false,
+  "chbmit_test_events": 34,
+  "siena_events": 47,
+  "canonical_checkpoints": 15,
+  "operating_evaluations_per_dataset": 45
+}
