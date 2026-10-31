@@ -167,8 +167,11 @@ def paired_stats(runs):
             delta = (bb[m] - aa[m]).to_numpy(float)
             nz = delta[~np.isclose(delta, 0)]
             stat, p = wilcoxon(nz, method="exact") if len(nz) else (np.nan, np.nan)
+            sd = delta.std(ddof=1)
+            dz = np.nan if len(delta) < 2 or np.isclose(sd, 0.0) else delta.mean() / sd
             rows.append({"baseline": a, "comparison": b, "metric": m, "n_pairs": len(delta),
-                         "mean_delta": delta.mean(), "wilcoxon_statistic": stat, "p_value_raw": p})
+                         "mean_delta": delta.mean(), "cohens_dz": dz,
+                         "wilcoxon_statistic": stat, "p_value_raw": p})
     out = pd.DataFrame(rows)
     out["p_holm_within_metric"] = np.nan
     for metric, idx in out.groupby("metric").groups.items():
