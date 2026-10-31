@@ -1,3 +1,0 @@
-CHB-MIT case chb21 was normalized to chb01 before patient-level partitioning because chb01 and chb21 represent the same participant.
-
-The intersections between the training, validation, and test canonical patient sets are empty.
